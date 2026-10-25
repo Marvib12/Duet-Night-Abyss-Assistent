@@ -6,8 +6,8 @@ Begleit-App für **Duet Night Abyss** (Windows): Demon Wedges, Builds, Prioliste
 
 👉 **[Neueste Version herunterladen](../../releases/latest)** – unter „Assets“ die Datei `DnaAssistant.exe`.
 
-- Keine Installation nötig, einfach starten (eine einzige Datei, kein .NET erforderlich).
-- Die App fragt beim Start nach **Administratorrechten**. Das Spiel läuft mit erhöhten Rechten; ohne sie kommen Hotkeys und Bildschirmaufnahme im Spiel nicht an.
+- Keine Installation nötig, einfach starten.
+- Die App fragt beim Start nach **Administratorrechten**. Das Spiel läuft mit Administratorrechten; ohne sie kommen Hotkeys und Bildschirmaufnahme im Spiel nicht an.
 - Neue Versionen meldet die App beim Start selbst.
 - Windows SmartScreen kann beim ersten Start warnen („Unbekannter Herausgeber“) – über „Weitere Informationen › Trotzdem ausführen“ starten.
 
@@ -50,7 +50,7 @@ Deutsch, English, Français, Español, Italiano, Português, Polski, Türkçe, �
 
 ## Daten & Datenschutz
 
-Alle Daten (Fortschritt, Builds, Einstellungen) bleiben auf deinem PC unter `%LocalAppData%\DnaAssistant`. Online abgefragt werden nur öffentliche Spieldaten von [boarhat.gg](https://boarhat.gg/games/duet-night-abyss/), die Covert Commissions von [dna.marvib.de](https://dna.marvib.de/) und neue App-Versionen hier auf GitHub.
+Alle Daten (Fortschritt, Builds, Einstellungen) bleiben auf deinem PC unter `%LocalAppData%\DnaAssistant`. Online abgefragt werden nur öffentliche Spieldaten von [boarhat.gg](https://boarhat.gg/games/duet-night-abyss/), die Covert Commissions von einer Web-API und neue App-Versionen hier auf GitHub.
 
 ## Probleme oder Ideen?
 
