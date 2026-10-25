@@ -1,61 +1,61 @@
 # Duet Night Abyss Assistent
 
-Begleit-App für **Duet Night Abyss** (Windows): Demon Wedges, Builds, Prioliste, Geniemon-Sammlung und Covert Commissions – mit Hotkey-Erkennung direkt im Spiel. Läuft komplett lokal.
+Companion app for **Duet Night Abyss** (Windows): Demon Wedges, builds, priority list, Geniemon collection and Covert Commissions – with hotkey recognition right in the game. Runs entirely on your PC.
 
 ## Download
 
-👉 **[Neueste Version herunterladen](../../releases/latest)** – unter „Assets“ die Datei `DnaAssistant.exe`.
+👉 **[Download the latest version](../../releases/latest)** – under “Assets”, get `DnaAssistant.exe`.
 
-- Keine Installation nötig, einfach starten.
-- Die App fragt beim Start nach **Administratorrechten**. Das Spiel läuft mit Administratorrechten; ohne sie kommen Hotkeys und Bildschirmaufnahme im Spiel nicht an.
-- Neue Versionen meldet die App beim Start selbst.
-- Windows SmartScreen kann beim ersten Start warnen („Unbekannter Herausgeber“) – über „Weitere Informationen › Trotzdem ausführen“ starten.
+- No installation needed, just run it.
+- The app asks for **administrator rights** on startup. The game runs with administrator rights; without them, hotkeys and screen capture don't reach the game.
+- The app tells you about new versions on startup.
+- Windows SmartScreen may warn on first launch (“Unknown publisher”) – click “More info › Run anyway”.
 
-## Funktionen
+## Features
 
-| Bereich | Was es kann |
+| Area | What it does |
 |---|---|
-| **Demon Wedges** | Alle Wedges mit Suche und Filtern (Kategorie, Element, Seltenheit, Polarität, Herkunft); Zähler für +10-Exemplare; Seltenheitsfarbe in der Vorschau. |
-| **Kategorien & Ziele** | Wunschmenge pro Kategorie oder einzelnem Wedge (z. B. 1 oder 4), Sortierung nach fertig/offen, Maximalstufe (Gold +10, sonst +5). |
-| **Builds** | Import per boarhat-Link/-Code, aus boarhat-Vorlagen oder aus einem Screenshot des Wedge-Sets. Charakter, Nah- und Fernkampfwaffe wählen, Fortschritt wie „3/10 Wedges fertig“, fehlende Wedges mit einem Klick auf die Prioliste, Builds als Link teilen. |
-| **Prioliste** | Wedges, die du als Nächstes brauchst – im Spiel per Hotkey (Standard **F7**) einblendbar, mit Herkunft. |
-| **Geniemons** | Sammlung je Variante (Miraculous, Ardent, Shiny) mit Wunschmenge, zusammengefasst und aufklappbar. Battle-Pass-Geniemons ohne Limit. |
-| **Covert Commission** | Aktuelle Modi aller Regionen, Benachrichtigung mit Ton für deine Modi in deiner Region, Einstellungen per Code teilen. |
-| **Aktionslog** | Jede Änderung lässt sich rückgängig machen; **F9** nimmt die letzte Hotkey-Aktion zurück. |
+| **Demon Wedges** | All wedges with search and filters (category, element, rarity, polarity, source); counter for +10 copies; rarity color in the preview. |
+| **Categories & goals** | Wanted amount per category or single wedge (e.g. 1 or 4), sort by done/open, max level (gold +10, otherwise +5). |
+| **Builds** | Import via boarhat link/code, from boarhat presets or from a screenshot of the wedge set. Choose character, melee and ranged weapon, progress like “3/10 wedges done”, add missing wedges to the priority list in one click, share builds as a link. |
+| **Priority list** | Wedges you need next – shown in game via hotkey (default **F7**), including where to get them. |
+| **Geniemons** | Collection per variant (Miraculous, Ardent, Shiny) with wanted amount, grouped and expandable. Battle pass Geniemons without a limit. |
+| **Covert Commission** | Current modes of all regions, notification with sound for your modes in your region, share settings via code. |
+| **Action log** | Every change can be undone; **F9** reverts the last hotkey action. |
 
-### Hotkey F8 im Spiel
+### Hotkey F8 in game
 
-- **Wedge-Detailansicht:** erkennt Wedge, Seltenheit und Stufe und zählt bei Maximalstufe.
-- **Geniemon-Ansicht:** zählt die Variante, wenn sie auf Max-Level ist (Lv. 60/60, drei Sterne).
-- **Fangen-Bildschirm:** sagt dir, ob du dieses Geniemon noch brauchst.
+- **Wedge detail view:** recognizes wedge, rarity and level and counts it at max level.
+- **Geniemon view:** counts the variant when it's at max level (Lv. 60/60, three stars).
+- **Catch screen:** tells you whether you still need this Geniemon.
 
-**Tipps für eine gute Erkennung**
+**Tips for good recognition**
 
-- Spiel im **Fenster- oder randlosen Modus** spielen (im exklusiven Vollbild kann die Aufnahme schwarz sein).
-- Am besten die englische Windows-Texterkennung installieren – in einer **Administrator-PowerShell**:
+- Play in **windowed or borderless mode** (in exclusive fullscreen the capture can be black).
+- Ideally install the English Windows text recognition – in an **administrator PowerShell**:
   ```
   Add-WindowsCapability -Online -Name "Language.OCR~~~en-US~0.0.1.0"
   ```
 
 ### Autostart (optional)
 
-In den Einstellungen unter **Autostart**:
+In the settings under **Autostart**:
 
-- **Steam:** die angezeigte Startoption in Steam bei Duet Night Abyss unter *Eigenschaften › Startoptionen* einfügen.
-- **Launcher:** Desktop-Verknüpfung „DNA Assistant + Launcher“ erstellen und/oder mit Windows starten.
+- **Steam:** paste the shown launch option in Steam at Duet Night Abyss under *Properties › Launch options*.
+- **Launcher:** create the desktop shortcut “DNA Assistant + Launcher” and/or start with Windows.
 
-## Sprachen
+## Languages
 
 Deutsch, English, Français, Español, Italiano, Português, Polski, Türkçe, Русский, Українська, 日本語, 한국어, 简体中文
 
-## Daten & Datenschutz
+## Data & privacy
 
-Alle Daten (Fortschritt, Builds, Einstellungen) bleiben auf deinem PC unter `%LocalAppData%\DnaAssistant`. Online abgefragt werden nur öffentliche Spieldaten von [boarhat.gg](https://boarhat.gg/games/duet-night-abyss/), die Covert Commissions von einer Web-API und neue App-Versionen hier auf GitHub.
+All data (progress, builds, settings) stays on your PC in `%LocalAppData%\DnaAssistant`. The only things fetched online are public game data from [boarhat.gg](https://boarhat.gg/games/duet-night-abyss/), the Covert Commissions from a web API and new app versions here on GitHub.
 
-## Probleme oder Ideen?
+## Problems or ideas?
 
-Gern über [Issues](../../issues) melden – bei Erkennungsproblemen bitte einen Screenshot der betroffenen Ansicht anhängen.
+Feel free to report them via [Issues](../../issues) – for recognition problems, please attach a screenshot of the affected view.
 
 ---
 
-Inoffizielles Fan-Projekt, nicht mit den Entwicklern oder Publishern von Duet Night Abyss verbunden.
+Unofficial fan project, not affiliated with the developers or publishers of Duet Night Abyss.
