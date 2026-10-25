@@ -1,6 +1,6 @@
 # Duet Night Abyss Assistent
 
-Begleit-App für **Duet Night Abyss** (Windows): Demon Wedges, Builds, Prioliste, Geniemon-Sammlung und Covert Commissions – mit Hotkey-Erkennung direkt im Spiel. Läuft komplett lokal, ohne Konto und ohne KI-Dienste.
+Begleit-App für **Duet Night Abyss** (Windows): Demon Wedges, Builds, Prioliste, Geniemon-Sammlung und Covert Commissions – mit Hotkey-Erkennung direkt im Spiel. Läuft komplett lokal.
 
 ## Download
 
