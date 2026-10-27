@@ -33,7 +33,7 @@ Companion app for **Duet Night Abyss** (Windows): Demon Wedges, builds, priority
 
 - Play in **windowed or borderless mode** (in exclusive fullscreen the capture can be black).
 - Ideally install the English Windows text recognition – in an **administrator PowerShell**:
-  ```
+  ``` 
   Add-WindowsCapability -Online -Name "Language.OCR~~~en-US~0.0.1.0"
   ```
 
