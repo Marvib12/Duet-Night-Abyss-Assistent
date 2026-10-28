@@ -35,11 +35,11 @@
 
 | Key | What it does |
 |:---:|---|
-| **F8** | Counts the selected Demon Wedge when it's at max level (gold +10, others +5). Rarity is read from the card color. |
-| **F10** | Shows info for the selected Demon Wedge: how many you have, your goal and whether you still need it – counts nothing. |
-| **F6** | Geniemon view: counts the variant at max level (Lv. 60/60, three stars). Catch screen: tells you whether you still need it. |
-| **F7** | Shows or hides your priority list over the game. |
-| **F9** | Undoes the last hotkey action. |
+| **F6** | Counts the selected Demon Wedge when it's at max level (gold +10, others +5). Rarity is read from the card color. |
+| **F7** | Shows info for the selected Demon Wedge: how many you have, your goal and whether you still need it – counts nothing. |
+| **F8** | Geniemon view: counts the variant at max level (Lv. 60/60, three stars). Catch screen: tells you whether you still need it. |
+| **F9** | Shows or hides your priority list over the game. |
+| **F10** | Undoes the last hotkey action. |
 
 All keys can be changed in the settings.
 
@@ -67,7 +67,7 @@ Import builds from a boarhat link or code, from boarhat presets or from a **scre
 
 ### ⭐ Priority list
 
-The wedges you need next, including where to get them – press **F7** to show them over the game.
+The wedges you need next, including where to get them – press **F9** to show them over the game.
 
 <img src="images/priority.png" width="900" alt="Priority list">
 
