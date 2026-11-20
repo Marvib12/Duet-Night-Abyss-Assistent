@@ -59,7 +59,7 @@ Set how many copies you want per category or per wedge (for example 1 or 4), sor
 
 ### 🧩 Builds
 
-Import builds from a boarhat link or code, from boarhat presets or from a **screenshot of your wedge set** – the wedges are recognized and filled in. Type to search when picking the character, weapons and wedges. See progress like “3/10 wedges done”, send everything missing to the priority list in one click, and share builds as a link.
+Import builds from a boarhat link or code, from boarhat presets or from a **screenshot of your wedge set** – the wedges are recognized and filled in. Type to search when picking the character, weapons and wedges. See progress like “3/10 wedges done” and whether the character and weapons are owned and maxed, send everything missing to the priority list in one click, and share builds as a link.
 
 <img src="images/builds.png" width="900" alt="Build list with progress and missing wedges">
 
@@ -76,6 +76,12 @@ The wedges you need next, including where to get them – press **F9** to show t
 Your collection per variant (Miraculous, Ardent, Shiny) with a wanted amount per variant. Battle pass Geniemons are tracked without a limit, inactive ones are hidden.
 
 <img src="images/geniemons.png" width="900" alt="Geniemon collection">
+
+### 🛡️ Characters & weapons
+
+Tick which characters and weapons you own (**Own**) and which are fully upgraded (**Max** – Intron 6 for characters, Smelting 5 for weapons). Filter by what's missing – and the build info shows right away whether the build's character and weapons are owned and maxed.
+
+<img src="images/characters-weapons.png" width="900" alt="Characters and weapons with Own and Max">
 
 ### 📡 Covert Commission
 
@@ -112,8 +118,8 @@ In the settings under **Autostart**:
 
 ## Planned
 
-- [ ] **Character tracking** – track which characters you own and level up
-- [ ] **Weapon tracking** – track which weapons you own and level up
+- [x] **Character tracking** – owned and max Intron (added in v0.2.14)
+- [x] **Weapon tracking** – owned and max Smelting (added in v0.2.14)
 
 ## Languages
 
