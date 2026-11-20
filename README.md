@@ -79,7 +79,7 @@ Your collection per variant (Miraculous, Ardent, Shiny) with a wanted amount per
 
 ### 🛡️ Characters & weapons
 
-Tick which characters and weapons you own (**Own**) and which are fully upgraded (**Max** – Intron 6 for characters, Smelting 5 for weapons). Filter by what's missing – and the build info shows right away whether the build's character and weapons are owned and maxed.
+Tick which characters and weapons you own (**Own**) and which are fully upgraded (**Max** – Intron 6 or 7 for characters, depending on the character, Smelting 5 for weapons). Filter by what's missing – and the build info shows right away whether the build's character and weapons are owned and maxed.
 
 <img src="images/characters-weapons.png" width="900" alt="Characters and weapons with Own and Max">
 
@@ -118,7 +118,7 @@ In the settings under **Autostart**:
 
 ## Planned
 
-- [x] **Character tracking** – owned and max Intron (added in v0.2.14)
+- [x] **Character tracking** – owned and max Intron 6/7 (added in v0.2.14)
 - [x] **Weapon tracking** – owned and max Smelting (added in v0.2.14)
 
 ## Languages
